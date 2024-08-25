@@ -10,7 +10,7 @@ const PORT = 3000; // Define the port number where the server will listen for re
 const db = mysql.createConnection({
   host: 'localhost',  // Hostname of the database server
   user: 'root',       // Username for the database
-  password: 'nottingham', // Password for the database user
+  password: 'myPa$$word', // Password for the database user
   database: 'car',    // Name of the database to use
 });
 
