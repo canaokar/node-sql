@@ -5,6 +5,7 @@ const mysql = require('mysql2'); // MySQL2 is a fast and lightweight SQL client 
 // Create an instance of an Express application
 const app = express();
 const PORT = 3000; // Define the port number where the server will listen for requests
+app.use(express.json());
 
 // Create a connection to the MySQL database
 const db = mysql.createConnection({
